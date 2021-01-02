@@ -1,0 +1,29 @@
+#header {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%, #1e5372);
+    background: linear-gradient(90deg,#1c89c0,#1162db 25%, #1b5e85);
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(30%);
+}
+
+#main-content {
+    text-decoration: beige;
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    color: white;
+    z-index: 1;
+}
