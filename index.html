@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>José Corro</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="58">
 
     <!-- Header -->
 
@@ -21,10 +21,10 @@
         <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#main">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#curriculum">Curriculum</a>
@@ -209,10 +209,26 @@
     <!-- Conctacto -->
 
     <section id="contacto">
-      <div class="container">
+      <div id="contacto-container" class="container">
         <div class="row" id="banners">
           <div class="col-12 text-center pt-5 pb-5">
             <h1>Contacto</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 offset-lg-3 col-lg-6 pt-4 text-center">
+            <h4>Correo Electronico</h4>
+            <hr class="my-4">
+            <h5>joseantonioce.06@gmail.com</h5>
+          </div>
+        </div>
+        <div class="row pb-3">
+          <div class="col-12 offset-lg-3 col-lg-6 pt-4 text-center">
+            <h4>Redes Sociales</h4>
+            <hr class="my-4">
+            <h5><a href="https://twitter.com/joseantonioce06">Twitter</a><br/></h5>  
+            <h5><a href="https://www.instagram.com/joseantonioce.06/">Instagram</a><br/></h5>
+            <h5><a href="https://github.com/joseantonioce05/">GitHub</a></h5>
           </div>
         </div>
       </div>
@@ -225,11 +241,14 @@
     <footer id="footer" class="pb-4 pt-4">
       <div class="container">
         <div class="row text-center text-md-right">
-          <div class="col col-lg-1 offset-lg-10">
+          <div class="col col-lg-1 offset-lg-9">
             <a href="https://github.com/joseantonioce05/"><img src="assets/images/github.svg" alt="GitHub"></a>
           </div>
           <div class="col col-lg-1">
             <a href="https://twitter.com/joseantonioce06"><img src="assets/images/twitter.svg" alt="Twitter"></a>
+          </div>
+          <div class="col col-lg-1">
+            <a href="https://www.instagram.com/joseantonioce.06/"><img src="assets/images/instagram.svg" alt="Instagram"></a>
           </div>
         </div>
       </div>
@@ -283,7 +302,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-platzi">Comprar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
           </div>
         </div>
       </div>
