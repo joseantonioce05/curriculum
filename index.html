@@ -33,7 +33,7 @@
               <a class="nav-link" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="row">
-          <div id="imgcurriculum" class="col-6 col-lg-6 offset-lg-3 pt-4">
+          <div id="imgcurriculum" class="col-12 col-lg-6 offset-lg-3 pt-4">
             <div class="float-left">
               <img src="assets/images/Jose.jpg" class="rounded-circle" alt="José">
             </div>
@@ -155,31 +155,41 @@
             <div class="card">
               <img src="assets/images/card1.png" class="card-img-top" alt="Front">
               <div class="card-body">
-                <h2>FrontEnd</h2>
+                <h2 class="text-center pb-2">FrontEnd</h2>
                 <p class="card-text">Diseño basico hecho en Boostrap para tu sitio web</p>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form-client">Solicitar servicio</button>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-4 pt-3">
             <div class="card">
-              <img src="assets/images/card1.png" class="card-img-top" alt="Front">
+              <img src="assets/images/card2.jpg" class="card-img-top" alt="Base de Datos">
               <div class="card-body">
-                <h2>FrontEnd</h2>
-                <p class="card-text">Diseño basico hecho en Boostrap para tu sitio web</p>
+                <h2 class="text-center pb-2">Base de Datos</h2>
+                <p class="card-text">Esquematización y implemetación de una Base de Datos relacional</p>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form-client">Solicitar servicio</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="row pb-4">
-          <div class="col-12 col-lg-4 offset-lg-2 pt-3">
+          <div class="col-12 col-lg-4 offset-lg-4 pt-3">
             <div class="card">
-              <img src="assets/images/card1.png" class="card-img-top" alt="Front">
+              <img src="assets/images/card3.png" class="card-img-top" alt="Java" style="border: 1em solid black;">
               <div class="card-body">
-                <h2>FrontEnd</h2>
-                <p class="card-text">Diseño basico hecho en Boostrap para tu sitio web</p>
+                <h2 class="text-center pb-2">Desarollo de App <br/> en Java</h2>
+                <p class="card-text">Diseño y desarrollo de una app de escritorio o movil hecha en Java</p>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form-client">Solicitar servicio</button>
+                </div>
               </div>
             </div>
           </div>
+          <!--
           <div class="col-12 col-lg-4 pt-3">
             <div class="card">
               <img src="assets/images/card1.png" class="card-img-top" alt="Front">
@@ -189,40 +199,96 @@
               </div>
             </div>
           </div>
+          -->
         </div>
       </div>
     </section>
 
     <!-- /Servicios -->
 
+    <!-- Conctacto -->
+
+    <section id="contacto">
+      <div class="container">
+        <div class="row" id="banners">
+          <div class="col-12 text-center pt-5 pb-5">
+            <h1>Contacto</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Conctacto -->
+
     <!-- Footer -->
 
     <footer id="footer" class="pb-4 pt-4">
       <div class="container">
-        <div class="row text-center">
-          <div class="col-12 col-lg">
-            <a href="#">Preguntas frecuentes</a>
+        <div class="row text-center text-md-right">
+          <div class="col col-lg-1 offset-lg-10">
+            <a href="https://github.com/joseantonioce05/"><img src="assets/images/github.svg" alt="GitHub"></a>
           </div>
-          <div class="col-12 col-lg">
-            <a href="#">Contactanos</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="#">Prensa</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="#">Terminos y condiciones</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="#">Privacidad</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="#">Estudiante</a>
+          <div class="col col-lg-1">
+            <a href="https://twitter.com/joseantonioce06"><img src="assets/images/twitter.svg" alt="Twitter"></a>
           </div>
         </div>
       </div>
     </footer>
 
     <!-- /Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="form-client" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Solicitar Servicios</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row pb-3">
+                <div class="col">
+                  <label for="exampleInputEmail1">Nombre</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                  <label for="exampleInputEmail1">Apellido</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col pb-2">
+                    <label for="exampleInputEmail1">Dirección de Correo</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+              <div class="form-row pb-4">
+                <div class="col">
+                  <label for="inputState">Servicio</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Elige una opción</option>
+                    <option>FrontEnd</option>
+                    <option>Base de Datos</option>
+                    <option>App en Java</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Sera contactado en la brevedad de lo posible.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
