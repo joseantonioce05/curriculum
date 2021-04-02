@@ -26,7 +26,32 @@ html {
 }
 
 /* carousel */
-.carousel-inner img {
-    height: 80vh;
-    object-fit: cover;
+.carousel {
+    position: relative;
 }
+.carousel-inner img {
+    height: 75vh;
+    object-fit: cover;
+    filter: opacity(65%);
+}
+.carousel-container {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 10%;
+    left: 8%;
+    color: white; 
+    text-align: center;
+}
+
+.carousel-container--content {
+    width: 90%;
+}
+
+.carousel-container--content h1 {
+    font-size: 4rem;
+}
+.carousel-container--content p {
+    font-size: 3rem;
+}
+
