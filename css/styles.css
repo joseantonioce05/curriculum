@@ -26,6 +26,11 @@ html {
     color: white;
 }
 
+/* Main */
+.main {
+    background: #1b2127;
+}
+
 /* carousel */
 .carousel {
     position: relative;
@@ -54,3 +59,66 @@ html {
     font-size: 2.2rem;
 }
 
+/* Separator */
+.separator-container--content {
+    background: linear-gradient(90deg,#1c89c0,#1162db 25%, #1b5e85);
+    padding: 10px 0;
+}
+.separator-container--content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Curriculum  */
+.curriculum {
+    background: white;
+}
+.curriculum-title--img img {
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.curriculum-title--text {
+    text-align: center;
+}
+.curriculum-title--text h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.curriculum-title--text p {
+    font-size: 1.8rem;
+}
+.curriculum-content {
+    padding: 0 15px;
+}
+.curriculum-content .curriculum-aptitudes h3, .curriculum-education h3, .curriculum-info h3{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.curriculum-aptitudes ul {
+    padding-top: 10px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.curriculum-education {
+    font-size: 1.6rem;
+}
+.curriculum-education h4 {
+    padding-top: 10px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.curriculum-education p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.curriculum-education a, .curriculum-info a {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
