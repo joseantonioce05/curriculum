@@ -107,7 +107,8 @@ html {
     font-weight: 600;
 }
 .curriculum-education {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 .curriculum-education h4 {
     padding-top: 10px;
@@ -115,10 +116,42 @@ html {
     font-weight: 700;
 }
 .curriculum-education p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .curriculum-education a, .curriculum-info a {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 600;
+}
+.curriculum-info {
+    padding-bottom: 25px;
+    text-align: center;
+}
+/* Proyectos */
+.projects {
+    background: white;
+}
+.projects-content {
+    padding: 75px 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+/* Contact */
+.contact {
+    background: white;
+}
+.contact-email, .contact-social {
+    padding-top: 20px;
+    text-align: center;
+}
+.contact-email h3, .contact-social h3 {
+    padding-bottom: 5px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+.contact-email p, .contact-social p{
+    padding-top: 10px;
+    font-size: 2.2rem;
 }
